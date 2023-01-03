@@ -1,0 +1,11 @@
+.wwebjs_auth
+node_modules
+.env
+yarn.lock
+yarn-error.log
+
+src/config/**
+!src/config/**/.gitkeep
+
+src/downloads/**
+!src/downloads/**/.gitkeep

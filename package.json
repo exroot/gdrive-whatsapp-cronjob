@@ -1,0 +1,36 @@
+{
+  "name": "gdrive-whatsapp-cronjob",
+  "version": "1.0.0",
+  "description": "Google Drive + Whatsapp cronjob\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exroot/gdrive-whatsapp-cronjob.git"
+  },
+  "keywords": [
+    "Google",
+    "Drive",
+    "Whatsapp",
+    "Download",
+    "Cronjob"
+  ],
+  "author": "exroot (Elias Torrealba)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exroot/gdrive-whatsapp-cronjob/issues"
+  },
+  "homepage": "https://github.com/exroot/gdrive-whatsapp-cronjob#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^110.0.0",
+    "node-cron": "^3.0.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
